@@ -1,0 +1,143 @@
+
+* {
+  
+  box-sizing: border-box;
+}
+
+body {
+background-image: url('new nuts.jpg');
+ background-size: cover;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f1f1f1;
+}
+
+.logo {
+  position: absolute;
+  top: 0px;
+  left: -10px;
+}
+
+.logo img {
+  width: 200px;
+  
+}
+
+.title {
+  margin-top: 20px;
+}
+
+.title h1 {
+  color:white;
+  
+}
+
+.navigation {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+
+.title {
+    text-align: center;
+    border: 2px solid #0c0000;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f6050d; /* Set the background color to a light red (#ffe6e6) or your desired color */
+}
+
+.navigation {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Add other styles as needed */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.logo {
+  text-align: center;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.horizontal-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.horizontal-nav li {
+  margin: 0 15px;
+}
+
+.horizontal-nav a {
+  text-decoration: none;
+  color: rgb(255, 68, 0);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.horizontal-nav li:hover .sub-menu {
+  display: block;
+}
+
+.sub-menu li {
+  display: block;
+  padding: 10px;
+}
+
+.sub-menu a {
+  color: #333;
+}
+
+/* Add other styles as needed */
+.content {
+  display: flex;
+}
+
+.main {
+  flex: 2;
+  padding: 20px;
+  /* Add other styles for your main content area */
+}
+
+.sidebar {
+  flex: 1;
+  padding: 20px;
+  /* Add other styles for your sidebar */
+}
+
+.paragraph {
+  float: left;
+  width: 50%; /* Adjust this width as needed */
+  /* Add other styles for your paragraph */
+  color: rgb(255, 68, 0);
+}
